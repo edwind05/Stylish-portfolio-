@@ -1,0 +1,502 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/*i will start the hero section*/
+
+.hero {
+  height: 90vh;
+  background-color: yellow;
+  background-image: url("../images/yellow-background-pencil-designer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+  color: rgb(36, 35, 35, 0.9);
+}
+
+#hero {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#hero h1 {
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.hero button {
+  padding: 10px;
+  background-color: rgb(53, 129, 159);
+  border-radius: 5px;
+  border: none;
+  padding: 20px;
+  margin: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+#hero p {
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* about part */
+
+#about {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about h3 {
+  font-weight: bold;
+  color: 36, 35, 35, 0.9;
+  font-size: 28px;
+}
+
+#about button {
+  padding: 10px;
+  background-color: rgb(36, 35, 35);
+  border-radius: 5px;
+  border: none;
+  padding: 20px;
+  margin: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+/* work on the nextweb */
+
+#services {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(53, 129, 159);
+}
+
+#services #icons i{
+   clip-path: circle(50%); 
+   background-color: rgb(255, 255, 255); 
+  color: rgb(53, 129, 159);
+  font-size: 2rem;
+  border: none;
+  padding: 10px;
+}
+
+#services h4 {
+  color: rgb(221, 144, 0);
+}
+
+#services h2 {
+  color: rgb(255, 255, 255);
+  font-size: 34px;
+}
+
+
+#services #icons {
+    height: auto;
+    width: 100%;
+    display:flex; 
+    justify-content: space-around; 
+    align-content: center;
+    text-align: center;
+    
+  }
+
+#services #icons h4{
+    color: rgb(36, 35, 35, 0.9);
+}
+
+#services #icons p{
+    color: rgb(36, 35, 35, 0.9);
+    font-weight: light;
+}
+
+
+#next-web {
+  background-image: url("../images/scissors2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#next-web span {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#next-web h2 {
+  font-weight: bold;
+  color: rgb(36, 35, 35);
+  font-size: 34px;
+  margin: 0;
+}
+
+#next-web button {
+  padding: 10px;
+  background-color: rgb(53, 129, 159);
+  border-radius: 5px;
+  border: none;
+  padding: 20px;
+  margin: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+/* projects */
+#project {
+  padding: 7% 0;
+  
+}
+.projectIner {
+  text-align: center;
+  
+}
+
+#strawberries img {
+  transition: filter 0.3s;
+}
+
+#strawberries:hover img {
+  filter: blur(2px);
+  transform: scale(.90);
+  height: auto;
+}
+
+#workspace img {
+  transition: filter 0.3s;
+}
+
+#workspace:hover img {
+  filter: blur(2px);
+  transform: scale(.90)
+  height: auto;
+}
+
+#envelope img {
+  transition: filter 0.3s;
+}
+
+#envelope:hover img {
+  filter: blur(2px);
+  transform: scale(.90)
+  height: auto;
+}
+
+#icecream img {
+  transition: filter 0.3s;
+}
+
+#icecream:hover img {
+  filter: blur(2px);
+  transform: scale(.90)
+  height: auto;
+}
+
+.images{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 80px;
+  align-content: center;
+}
+
+#images-inner {
+ 
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+  justify-content: center;
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: -40px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.images #text {
+  position: absolute;
+  bottom: 184px;
+  padding-left: 40px;
+  display: none;
+}
+
+#envelope:hover #text {
+  display: block;
+}
+
+#workspace:hover #text {
+  display: block;
+}
+
+#icecream:hover #text {
+  display: block;
+}
+
+#strawberries:hover #text {
+  display: block;
+}
+
+#images-inner h4 {
+  padding-left: 15px 0px;
+}
+
+#images-inner img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 12px;
+}
+/* end of projects */
+
+/* the conect sect */
+
+#connect {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(53, 129, 159);
+}
+
+#connect #b1 {
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: none;
+  padding: 20px;
+  margin: 20px;
+  font-weight: bold;
+  color: rgb(36, 35, 35);
+}
+
+#connect #b2 {
+  padding: 10px;
+  background-color: rgb(36, 35, 35);
+  border-radius: 5px;
+  border: none;
+  padding: 20px;
+  margin: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+
+footer{
+    text-align: center;
+    height: 4rem;
+}
+
+i{
+    font-size: 3rem;
+    
+}
+
+footer i{
+  color: rgb(53, 129, 159);
+  padding: 2rem;
+  clip-path: circle(50%);
+}
+/* end of connect sect */
+
+/* MEDIA QUERIES */
+
+/*ipad mini*/
+
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 50px;
+    background-position: top bottom;
+    background-blend-mode: saturation(-4xp);
+    filter: blur(0.3px);
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+
+  .hero button {
+    background-color: rgb(53, 129, 159);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* About section  */
+  #about {
+    padding: 50px;
+  }
+
+  #about h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  #about p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+
+  #about button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* Services section  */
+  #services {
+    background-color: rgb(53, 129, 159);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+   
+  }
+
+  #services h4 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+
+  #services h2 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+
+  #services #icons {
+    height: auto;
+    width: 100%;
+    display:flex; 
+    justify-content: space-around; 
+    align-content: center;
+    flex-wrap: wrap;
+    
+  }
+  
+  
+  #services 
+
+  /* Next web section*/
+  #next-web {
+    background-color: #333;
+    color: white;
+    padding: 50px;
+  }
+
+  #next-web h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  #next-web button {
+    background-color: white;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* Style the projects section */
+  #project {
+    background-color: #f2f2f2;
+    padding: 50px;
+  }
+
+  #project .projectIner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  #project h4 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+
+  #project h2 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+
+  #project .images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  #project #images-inner  {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 1;
+
+  }
+
+  #project .images img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+
+  #images #text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px;
+    opacity: 1;
+  }
+
+  #project .images #text {
+    opacity: 1;
+  }
+
+  #project .images #text h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  #project .images #text p {
+    font-size: 0.9rem;
+  }
+
+  footer #icons2 i{
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+}
